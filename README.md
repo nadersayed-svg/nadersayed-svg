@@ -61,6 +61,7 @@
 ---
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Computer+Science+Student+at+South+Valley+University.;Learning+Python%2C+C%2B%2B%2C+AI%2C+and+Data+Analysis.;Always+Building+and+Exploring+New+Tech!+🚀" alt="Typing SVG" />
+  <img src="https://raw.githubusercontent.com/platane/snk/output/github-contribution-grid-snake-dark.svg" alt="snake animation" />
 </p>
+
 ---
