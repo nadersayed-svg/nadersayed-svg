@@ -60,10 +60,7 @@
 
 ---
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/nadersayed-svg/nadersayed-svg/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/nadersayed-svg/nadersayed-svg/output/pacman-contribution-graph.svg">
-  <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/nadersayed-svg/nadersayed-svg/output/pacman-contribution-graph.svg">
-</picture>
-
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=00C4FF&center=true&vCenter=true&width=700&lines=Welcome+to+my+GitHub+Profile!;I'm+a+Computer+Science+Student+at+South+Valley+University.;Learning+Python%2C+C%2B%2B%2C+AI%2C+and+Data+Analysis.;Always+Building+and+Exploring+New+Tech!+🚀" alt="Typing SVG" />
+</p>
 ---
