@@ -101,7 +101,7 @@ I enjoy turning raw data into clear decisions, from cleaning it and querying it 
 </table>
 
 <p align="center">
-  <a href="https://github.com/nadersayed-svg/nader6.github.io" target="_blank">
+  <a href="https://nadersayed-svg.github.io/nader6.github.io/" target="_blank">
     <img src="https://img.shields.io/badge/SEE%20ALL%20PROJECTS%20%26%20DASHBOARDS-PORTFOLIO-6C63FF?style=for-the-badge&logo=github&logoColor=white" alt="See all projects and dashboards" />
   </a>
 </p>
