@@ -1,0 +1,213 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1200 800" width="100%" role="img" aria-labelledby="t d">
+  <title id="t">Areas of Expertise - Nader Sayed, Data Analyst</title>
+  <desc id="d">Animated footer showing expertise in data analysis, Excel and data cleaning, SQL and databases, Power BI and DAX, Python and C++, and networking (CCNA), with a thank-you note and animated waves.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0b1026"/><stop offset="0.55" stop-color="#151a3d"/><stop offset="1" stop-color="#0a1a33"/>
+    </linearGradient>
+    <linearGradient id="brand" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5eead4"/><stop offset="0.5" stop-color="#8b9cff"/><stop offset="1" stop-color="#c084fc"/>
+      <animate attributeName="x1" values="0;1;0" dur="8s" repeatCount="indefinite"/>
+    </linearGradient>
+    <linearGradient id="card" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffffff" stop-opacity="0.10"/><stop offset="1" stop-color="#ffffff" stop-opacity="0.03"/>
+    </linearGradient>
+    <linearGradient id="cTop" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#a5b4fc"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+    <linearGradient id="cLeft" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6366f1"/><stop offset="1" stop-color="#3730a3"/></linearGradient>
+    <linearGradient id="cRight" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#22d3ee"/><stop offset="1" stop-color="#0e7490"/></linearGradient>
+    <linearGradient id="w1" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#60a5fa" stop-opacity="0.55"/><stop offset="0.5" stop-color="#c084fc" stop-opacity="0.55"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0.55"/></linearGradient>
+    <linearGradient id="w2" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#818cf8" stop-opacity="0.5"/><stop offset="1" stop-color="#5eead4" stop-opacity="0.5"/></linearGradient>
+    <linearGradient id="w3" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#6366f1" stop-opacity="0.9"/><stop offset="0.5" stop-color="#a78bfa" stop-opacity="0.9"/><stop offset="1" stop-color="#38bdf8" stop-opacity="0.9"/></linearGradient>
+    <radialGradient id="glowA" cx="0.15" cy="0.08" r="0.6"><stop offset="0" stop-color="#6366f1" stop-opacity="0.35"/><stop offset="1" stop-color="#6366f1" stop-opacity="0"/></radialGradient>
+    <radialGradient id="glowB" cx="0.88" cy="0.4" r="0.5"><stop offset="0" stop-color="#22d3ee" stop-opacity="0.26"/><stop offset="1" stop-color="#22d3ee" stop-opacity="0"/></radialGradient>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="170%"><feDropShadow dx="0" dy="10" stdDeviation="10" flood-color="#000" flood-opacity="0.45"/></filter>
+    <clipPath id="frame"><rect width="1200" height="800" rx="24"/></clipPath>
+    <g id="cube">
+      <polygon points="0,-20 20,-10 0,0 -20,-10" fill="url(#cTop)"/>
+      <polygon points="-20,-10 0,0 0,24 -20,14" fill="url(#cLeft)"/>
+      <polygon points="20,-10 0,0 0,24 20,14" fill="url(#cRight)"/>
+    </g>
+    <path id="wave" d="M0 40 q150 -40 300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 t300 0 V200 H0 Z"/>
+    <!-- icon badge ring -->
+    <g id="badge">
+      <circle r="36" fill="#0b1026" stroke="#8b9cff" stroke-opacity="0.35" stroke-width="1.5"/>
+      <circle r="42" fill="none" stroke="url(#brand)" stroke-width="2" stroke-dasharray="10 14" stroke-linecap="round">
+        <animateTransform attributeName="transform" type="rotate" from="0" to="360" dur="14s" repeatCount="indefinite"/>
+      </circle>
+    </g>
+  </defs>
+
+  <g clip-path="url(#frame)" font-family="'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', Arial, sans-serif">
+    <rect width="1200" height="800" fill="url(#bg)"/>
+    <rect width="1200" height="800" fill="url(#glowA)"/>
+    <rect width="1200" height="800" fill="url(#glowB)"/>
+
+    <!-- floating 3D cubes -->
+    <g opacity="0.9" filter="url(#shadow)">
+      <g transform="translate(40 110)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -16;0 0" dur="6s" repeatCount="indefinite"/><use xlink:href="#cube" transform="scale(1.5)"/></g></g>
+      <g transform="translate(1150 90)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 14;0 0" dur="7s" repeatCount="indefinite"/><use xlink:href="#cube" transform="scale(1.3)"/></g></g>
+      <g transform="translate(1160 470)" opacity="0.8"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -12;0 0" dur="5s" repeatCount="indefinite"/><use xlink:href="#cube" transform="scale(1.7)"/></g></g>
+      <g transform="translate(35 500)" opacity="0.8"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 12;0 0" dur="8s" repeatCount="indefinite"/><use xlink:href="#cube" transform="scale(1.1)"/></g></g>
+      <g transform="translate(30 330)" opacity="0.5"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -10;0 0" dur="9s" repeatCount="indefinite"/><use xlink:href="#cube" transform="scale(0.7)"/></g></g>
+      <g transform="translate(1170 290)" opacity="0.5"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 10;0 0" dur="7.5s" repeatCount="indefinite"/><use xlink:href="#cube" transform="scale(0.7)"/></g></g>
+    </g>
+
+    <!-- particles -->
+    <g fill="#ffffff">
+      <circle cx="240" cy="50" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3s" repeatCount="indefinite"/></circle>
+      <circle cx="450" cy="28" r="1.6"><animate attributeName="opacity" values="1;0.1;1" dur="4s" repeatCount="indefinite"/></circle>
+      <circle cx="800" cy="46" r="2"><animate attributeName="opacity" values="0.1;1;0.1" dur="3.5s" repeatCount="indefinite"/></circle>
+      <circle cx="980" cy="26" r="1.6"><animate attributeName="opacity" values="1;0.2;1" dur="5s" repeatCount="indefinite"/></circle>
+      <circle cx="300" cy="610" r="1.8"><animate attributeName="opacity" values="0.1;1;0.1" dur="4.5s" repeatCount="indefinite"/></circle>
+      <circle cx="920" cy="628" r="1.8"><animate attributeName="opacity" values="1;0.1;1" dur="3.8s" repeatCount="indefinite"/></circle>
+    </g>
+
+    <!-- heading -->
+    <g text-anchor="middle">
+      <text x="600" y="78" font-size="40" font-weight="800" fill="url(#brand)" letter-spacing="0.5">Areas of Expertise</text>
+      <rect x="540" y="92" width="120" height="4" rx="2" fill="url(#brand)">
+        <animate attributeName="width" values="40;120;40" dur="4s" repeatCount="indefinite"/>
+        <animate attributeName="x" values="580;540;580" dur="4s" repeatCount="indefinite"/>
+      </rect>
+      <text x="600" y="132" font-size="17.5" fill="#c7d0f5">Data Analyst specializing in <tspan font-weight="700" fill="#ffffff">Data Analytics &amp; Power BI</tspan>, turning raw data into clear decisions.</text>
+    </g>
+
+    <!-- ===== ROW 1 ===== -->
+
+    <g transform="translate(60 170)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="5s" repeatCount="indefinite"/>
+      <rect width="340" height="130" rx="18" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+      <rect x="1" y="1" width="338" height="4" rx="2" fill="url(#brand)" opacity="0.8"/>
+      <g transform="translate(66 65)"><use xlink:href="#badge"/>
+        <g fill="#8b9cff"><circle cx="-16" cy="8" r="2.6"/><circle cx="-8" cy="1" r="2.6"/><circle cx="0" cy="5" r="2.6"/><circle cx="8" cy="-6" r="2.6"/><circle cx="16" cy="-11" r="2.6"/></g>
+        <line x1="-18" y1="10" x2="18" y2="-14" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round" stroke-dasharray="48" stroke-dashoffset="48">
+          <animate attributeName="stroke-dashoffset" values="48;0;0;48" keyTimes="0;0.4;0.85;1" dur="4s" repeatCount="indefinite"/>
+        </line>
+      </g>
+      <text x="126" y="58" font-size="20" font-weight="700" fill="#ffffff">Data Analysis</text>
+      <text x="126" y="82" font-size="13.5" fill="#a9b4e6">KPIs, trends and business</text>
+      <text x="126" y="101" font-size="13.5" fill="#a9b4e6">insights from raw data</text>
+    </g></g>
+
+    <g transform="translate(430 170)"><g><animateTransform attributeName="transform" type="translate" values="0 -6;0 0;0 -6" dur="5s" repeatCount="indefinite"/>
+      <rect width="340" height="130" rx="18" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+      <rect x="1" y="1" width="338" height="4" rx="2" fill="url(#brand)" opacity="0.8"/>
+      <g transform="translate(66 65)"><use xlink:href="#badge"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M-17 -12H17L5 3V15L-5 11V3Z"/></g>
+        <circle cx="-8" cy="-24" r="2.2" fill="#8b9cff"><animate attributeName="cy" values="-24;-6" dur="1.8s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.8s" repeatCount="indefinite"/></circle>
+        <circle cx="3" cy="-24" r="2.2" fill="#c084fc"><animate attributeName="cy" values="-24;-6" dur="1.8s" begin="0.6s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.8s" begin="0.6s" repeatCount="indefinite"/></circle>
+        <circle cx="10" cy="-24" r="2.2" fill="#8b9cff"><animate attributeName="cy" values="-24;-6" dur="1.8s" begin="1.2s" repeatCount="indefinite"/><animate attributeName="opacity" values="1;0" dur="1.8s" begin="1.2s" repeatCount="indefinite"/></circle>
+        <circle cx="0" cy="21" r="2.8" fill="#5eead4"><animate attributeName="opacity" values="0.3;1;0.3" dur="1.8s" repeatCount="indefinite"/></circle>
+      </g>
+      <text x="126" y="58" font-size="20" font-weight="700" fill="#ffffff">Excel Data Cleaning</text>
+      <text x="126" y="82" font-size="13.5" fill="#a9b4e6">Duplicates, blanks, formats</text>
+      <text x="126" y="101" font-size="13.5" fill="#a9b4e6">and analysis-ready sheets</text>
+    </g></g>
+
+    <g transform="translate(800 170)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+      <rect width="340" height="130" rx="18" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+      <rect x="1" y="1" width="338" height="4" rx="2" fill="url(#brand)" opacity="0.8"/>
+      <g transform="translate(66 65)"><use xlink:href="#badge"/>
+        <g fill="none" stroke="#8b9cff" stroke-width="2.2" stroke-linecap="round">
+          <ellipse cx="0" cy="-12" rx="15" ry="5.5" stroke="#5eead4" fill="#5eead4" fill-opacity="0.15"><animate attributeName="fill-opacity" values="0.1;0.45;0.1" dur="2.4s" repeatCount="indefinite"/></ellipse>
+          <path d="M-15 -12V12C-15 15 -8 17.5 0 17.5S15 15 15 12V-12"/>
+          <path d="M-15 0C-15 3 -8 5.5 0 5.5S15 3 15 0" stroke-opacity="0.7"/>
+        </g>
+        <circle cx="8" cy="-12" r="1.8" fill="#c084fc"><animate attributeName="opacity" values="1;0.2;1" dur="1.6s" repeatCount="indefinite"/></circle>
+      </g>
+      <text x="126" y="58" font-size="20" font-weight="700" fill="#ffffff">SQL &amp; Databases</text>
+      <text x="126" y="82" font-size="13.5" fill="#a9b4e6">Querying, filtering and</text>
+      <text x="126" y="101" font-size="13.5" fill="#a9b4e6">structuring data</text>
+    </g></g>
+
+    <!-- ===== ROW 2 ===== -->
+
+    <g transform="translate(60 325)"><g><animateTransform attributeName="transform" type="translate" values="0 -6;0 0;0 -6" dur="5.5s" repeatCount="indefinite"/>
+      <rect width="340" height="130" rx="18" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+      <rect x="1" y="1" width="338" height="4" rx="2" fill="url(#brand)" opacity="0.8"/>
+      <g transform="translate(66 65)"><use xlink:href="#badge"/>
+        <line x1="-20" y1="16" x2="20" y2="16" stroke="#8b9cff" stroke-width="1.5"/>
+        <rect x="-16" width="7" rx="1.5" fill="#5eead4" y="4" height="12"><animate attributeName="y" values="4;-8;4" dur="2.4s" repeatCount="indefinite"/><animate attributeName="height" values="12;24;12" dur="2.4s" repeatCount="indefinite"/></rect>
+        <rect x="-6" width="7" rx="1.5" fill="#8b9cff" y="-10" height="26"><animate attributeName="y" values="-10;2;-10" dur="2.4s" repeatCount="indefinite"/><animate attributeName="height" values="26;14;26" dur="2.4s" repeatCount="indefinite"/></rect>
+        <rect x="4" width="7" rx="1.5" fill="#c084fc" y="-2" height="18"><animate attributeName="y" values="-2;-14;-2" dur="2.4s" begin="0.4s" repeatCount="indefinite"/><animate attributeName="height" values="18;30;18" dur="2.4s" begin="0.4s" repeatCount="indefinite"/></rect>
+        <rect x="14" width="7" rx="1.5" fill="#5eead4" y="-6" height="22"><animate attributeName="y" values="-6;4;-6" dur="2.4s" begin="0.8s" repeatCount="indefinite"/><animate attributeName="height" values="22;12;22" dur="2.4s" begin="0.8s" repeatCount="indefinite"/></rect>
+      </g>
+      <text x="126" y="58" font-size="20" font-weight="700" fill="#ffffff">Power BI &amp; DAX</text>
+      <text x="126" y="82" font-size="13.5" fill="#a9b4e6">Interactive dashboards,</text>
+      <text x="126" y="101" font-size="13.5" fill="#a9b4e6">KPIs, slicers and visuals</text>
+    </g></g>
+
+    <g transform="translate(430 325)"><g><animateTransform attributeName="transform" type="translate" values="0 0;0 -6;0 0" dur="6s" repeatCount="indefinite"/>
+      <rect width="340" height="130" rx="18" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+      <rect x="1" y="1" width="338" height="4" rx="2" fill="url(#brand)" opacity="0.8"/>
+      <g transform="translate(66 65)"><use xlink:href="#badge"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-8 -11L-19 0L-8 11"/><path d="M8 -11L19 0L8 11"/></g>
+        <path d="M3 -13L-3 13" stroke="#c084fc" stroke-width="2.6" stroke-linecap="round" fill="none"><animate attributeName="opacity" values="1;0.3;1" dur="1.8s" repeatCount="indefinite"/></path>
+      </g>
+      <text x="126" y="58" font-size="20" font-weight="700" fill="#ffffff">Python &amp; C++</text>
+      <text x="126" y="82" font-size="13.5" fill="#a9b4e6">Programming foundations</text>
+      <text x="126" y="101" font-size="13.5" fill="#a9b4e6">and problem solving</text>
+    </g></g>
+
+    <g transform="translate(800 325)"><g><animateTransform attributeName="transform" type="translate" values="0 -6;0 0;0 -6" dur="5s" repeatCount="indefinite"/>
+      <rect width="340" height="130" rx="18" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35" filter="url(#shadow)"/>
+      <rect x="1" y="1" width="338" height="4" rx="2" fill="url(#brand)" opacity="0.8"/>
+      <g transform="translate(66 65)"><use xlink:href="#badge"/>
+        <g fill="none" stroke="#5eead4" stroke-width="2.4" stroke-linecap="round">
+          <path d="M-16 -4a22 22 0 0 1 32 0"><animate attributeName="opacity" values="0.15;1;0.15" dur="2s" begin="0.6s" repeatCount="indefinite"/></path>
+          <path d="M-10 2a13 13 0 0 1 20 0"><animate attributeName="opacity" values="0.15;1;0.15" dur="2s" begin="0.3s" repeatCount="indefinite"/></path>
+        </g>
+        <circle cy="9" r="3.6" fill="#c084fc"><animate attributeName="opacity" values="1;0.3;1" dur="2s" repeatCount="indefinite"/></circle>
+        <g fill="#8b9cff"><circle cx="-18" cy="16" r="2.4"/><circle cx="18" cy="16" r="2.4"/></g>
+      </g>
+      <text x="126" y="58" font-size="20" font-weight="700" fill="#ffffff">Networking · CCNA</text>
+      <text x="126" y="82" font-size="13.5" fill="#a9b4e6">Routing and switching</text>
+      <text x="126" y="101" font-size="13.5" fill="#a9b4e6">fundamentals (CCNA)</text>
+    </g></g>
+
+    <!-- stat pills -->
+    <g text-anchor="middle" font-size="15" font-weight="700" fill="#ffffff">
+      <rect x="60" y="486" width="340" height="42" rx="21" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35"/>
+      <circle cx="92" cy="507" r="5" fill="#5eead4"/><text x="240" y="512">2+ Power BI Dashboards</text>
+      <rect x="430" y="486" width="340" height="42" rx="21" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35"/>
+      <circle cx="462" cy="507" r="5" fill="#8b9cff"/><text x="610" y="512">2 Certificates · 240 Training Hours</text>
+      <rect x="800" y="486" width="340" height="42" rx="21" fill="url(#card)" stroke="#8b9cff" stroke-opacity="0.35"/>
+      <circle cx="832" cy="507" r="5" fill="#c084fc"/><text x="980" y="512">Excel · SQL · Power BI · DAX</text>
+    </g>
+
+    <!-- CTA -->
+    <g text-anchor="middle">
+      <rect x="150" y="558" width="900" height="48" rx="24" fill="url(#card)" stroke="url(#brand)" stroke-width="1.5"/>
+      <circle cx="187" cy="582" r="6" fill="#5eead4">
+        <animate attributeName="r" values="5;9;5" dur="2s" repeatCount="indefinite"/>
+        <animate attributeName="opacity" values="1;0.35;1" dur="2s" repeatCount="indefinite"/>
+      </circle>
+      <text x="618" y="588" font-size="16.5" font-weight="700" fill="#ffffff">Open to Data Analysis internships &amp; entry-level data roles. Let's collaborate or just connect!</text>
+    </g>
+
+    <!-- divider -->
+    <line x1="120" y1="634" x2="1080" y2="634" stroke="url(#brand)" stroke-opacity="0.5" stroke-width="1.5" stroke-dasharray="6 8">
+      <animate attributeName="stroke-dashoffset" values="0;-28" dur="2s" repeatCount="indefinite"/>
+    </line>
+
+    <!-- thanks -->
+    <g text-anchor="middle">
+      <text x="600" y="675" font-size="26" font-weight="800" fill="url(#brand)">Thanks for visiting my profile!</text>
+      <text x="580" y="705" font-size="15" fill="#c7d0f5">If you like my work, consider giving a</text>
+      <text x="875" y="705" font-size="15" fill="#c7d0f5">to the repositories you find useful.</text>
+    </g>
+    <g transform="translate(733 699)">
+      <g><animateTransform attributeName="transform" type="rotate" values="-12;12;-12" dur="3s" repeatCount="indefinite"/>
+        <g><animateTransform attributeName="transform" type="scale" values="1;1.25;1" dur="1.5s" repeatCount="indefinite" additive="sum"/>
+          <polygon points="0,-11 3.2,-3.6 11,-3.4 4.8,1.6 7,9.4 0,5 -7,9.4 -4.8,1.6 -11,-3.4 -3.2,-3.6" fill="#fbbf24" stroke="#f59e0b" stroke-width="1.2" stroke-linejoin="round"/>
+        </g>
+      </g>
+    </g>
+
+    <!-- waves -->
+    <g transform="translate(0 715)">
+      <use xlink:href="#wave" fill="url(#w1)"><animateTransform attributeName="transform" type="translate" from="0 6" to="-1200 6" dur="18s" repeatCount="indefinite"/></use>
+      <use xlink:href="#wave" fill="url(#w2)"><animateTransform attributeName="transform" type="translate" from="-1200 18" to="0 18" dur="14s" repeatCount="indefinite"/></use>
+      <use xlink:href="#wave" fill="url(#w3)"><animateTransform attributeName="transform" type="translate" from="0 30" to="-1200 30" dur="10s" repeatCount="indefinite"/></use>
+    </g>
+  </g>
+</svg>
